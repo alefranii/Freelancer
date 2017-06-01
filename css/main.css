@@ -2,7 +2,7 @@
  * Estilos de tu proyecto
  */
 
-* {
+ * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -24,7 +24,7 @@ body {
 }
 
 
- header{
+header{
   position: fixed;
   background: #2C3E50;
   width: 100%;
@@ -50,11 +50,12 @@ a {
 
 .logo{
 	font-weight: 700;
-  	padding: 15px;
-  	font-size: 1.5em;
-	float: left;
-	color: white;
-  	text-decoration: none;
+ padding: 15px;
+ font-size: 1.5em;
+ float: left;
+ color: #fff;
+ text-decoration: none;
+
 }
 /* ---------------Home---------------*/
 
@@ -68,6 +69,9 @@ a {
 
 #home img{
 	margin: 0 auto;
+      display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 #home h2{
@@ -78,4 +82,21 @@ a {
 #home p{
 	font-size: 1.75em;
 	text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .top {
+  padding: 50px 0 0;
+    background-color: #2C3E50;
+}
+footer .bot {
+  padding: 25px 0;
+    background-color: #233140;
 }
